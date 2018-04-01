@@ -1,0 +1,28 @@
+{
+  "name": "macaca-scripts",
+  "version": "1.0.0",
+  "description": "macaca scripts",
+  "bin": {
+    "macaca-scripts": "index.js"
+  },
+  "keywords": [
+    "macaca",
+    "scripts"
+  ],
+  "files": [
+    "index.js",
+    "scripts/integration-test-ios.sh",
+    "scripts/integration-test-android.sh"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macacajs/macaca-scripts.git"
+  },
+  "scripts": {
+    "contributor": "git-contributor"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "xutil": "^1.0.11"
+  }
+}
